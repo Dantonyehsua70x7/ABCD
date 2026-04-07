@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>TechLife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="boasVindas()">
+
+<header>
+    <h1>Tecnologia no Cotidiano</h1>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#riscos">Riscos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h2>O que é Tecnologia?</h2>
+    <p>A tecnologia está presente em praticamente tudo que fazemos hoje.</p>
+</section>
+
+<section id="beneficios">
+    <h2>Benefícios</h2>
+    <ul>
+        <li>Facilidade na comunicação</li>
+        <li>Acesso à informação</li>
+        <li>Automatização de tarefas</li>
+    </ul>
+</section>
+
+<section id="riscos">
+    <h2>Riscos</h2>
+    <p id="textoRisco">O uso excessivo pode causar problemas.</p>
+    <button onclick="mudarTexto()">Clique para mudar o texto</button>
+</section>
+
+<section>
+    <h2>Calculadora Simples</h2>
+    <input type="number" id="n1" placeholder="Número 1">
+    <input type="number" id="n2" placeholder="Número 2">
+    <button onclick="somar()">Somar</button>
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    <p>Desenvolvido por: Seu Nome e Nome do Colega</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
